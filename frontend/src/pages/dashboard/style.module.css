@@ -212,17 +212,30 @@ border: 1px solid silver;
 }
 
 .postCommentContainer_commentBtn{  
-    padding:12px 6px;
+    padding:8px 7px;
 }
 .postCommentContainer{
     position:absolute;
     bottom: 1.2rem;
-    left: 1.2rem;
-    width: 90%;
+    left: 0rem;
+    width:fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 0.6rem;
+    
+}
+.postCommentContainer > input{
+    flex:0.7;
+    padding-inline: 0rem;
+    padding-block: 0rem;
+    padding: 7px 8px;
+    border:none;
+    background-color: rgb(228,228,228);
+    border-radius: 8px;
+    outline: none;
+width: 60%;
+
 }
 .textAreaContent{
    
