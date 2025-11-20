@@ -1,0 +1,245 @@
+.container{
+    padding:  1.3rem;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    
+}
+.backDropContainer{
+    width: 100%;
+    height: 30vh;
+    background: url("https://cdn.magicdecor.in/com/2023/02/29210732/image-1685807905-2312.jpg");
+    background-size: cover;
+    background-repeat:no-repeat ;
+    position: relative;
+    border-radius: 20px;
+}
+
+.backDropContainer img {
+    width: 8em;
+    height: 8em;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -30%;
+    left: 8%;
+    text-align: center;
+}
+.profileContainer_details{
+    padding-top:4.5rem ;
+}
+.card{
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+}
+.card_profileContainer{
+    display: flex;
+}
+.connectBtn{
+    padding-inline:0.8rem;
+    padding-block: 0.3rem;
+    background: rgb(46, 128, 244);
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 18px;
+}
+.connectedButton{
+    padding-inline:0.8rem;
+    padding-block: 0.3rem;
+    background: rgb(131, 179, 247);
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 18px;
+}
+.workHistoryContainer{
+    display: flex;
+    gap: 1.4rem;
+    padding-top: 1rem;
+    width: 100%;
+    flex-wrap: wrap;
+    height: 20px;
+}
+.workHistoryCard{
+    min-width: fit-content;
+    padding-inline: 2.5rem;
+    padding-block: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(173,173,173);
+}
+.style_img{
+    height: 5rem;;
+    border-radius: 6px;
+
+}
+.roughBox{
+    height: 5rem;
+    width: 8rem;
+    background: aqua;
+}
+.backDrop_overlay{
+     width: 8em;
+    height: 8em;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -30%;
+    left: 8%;
+    text-align: center;
+    transition:all 0.4s ;
+    z-index: 4;
+cursor: pointer;
+color: white;
+opacity: 0.0;
+justify-content: center;
+align-items: center;
+
+}
+.backDrop_overlay:hover{
+background: black;
+opacity: 0.3;
+
+}
+.classEdit{
+    margin-top: 3.5rem;
+}
+.nameEdit{
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    padding-left: 6px;
+}
+.connectionButton{
+     padding-inline:0.8rem;
+    padding-block: 0.3rem;
+    background: rgb(59, 159, 252);
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 18px;
+    width: fit-content;
+}
+
+.profileContainer_details textarea{
+    outline: none;
+    border:none;
+    padding-inline: 10px;
+    padding-block: 9px;
+    font-family: "Poppins" !important;
+    font-size: 1.1rem;
+}
+.addWorkButton{
+    padding-inline: 1rem;
+    background: white;
+    border: 1px dotted silver;
+    padding-block: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    /* margin-bottom: 3rem; */
+}
+.commentsContainer{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+top:0;
+left:0;
+z-index:2;
+background:rgba(0,0,0,0.7) ;
+overflow: hidden;
+justify-content: center;
+display: flex;
+align-items: center;
+z-index: 5;
+}
+.allCommentContainer{
+    width: 40vw;
+    height: fit-content;
+    background: white;
+    border-radius: 10px;
+    position: relative;
+    padding: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.inputField{
+    padding-inline: 1.3rem;
+    padding-block:0.8rem;
+    outline:none;
+    border-radius:10px;
+    border:1px solid silver;
+    width: 100%;
+
+}
+
+.updateProfileBtn{
+    background-color: rgb(0, 106, 255);
+    width: fit-content;
+    padding: 4px 8px;
+    color: white;
+    border-radius: 3px;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.updateProfileBtn:hover{
+    background-color: rgb(6, 88, 202);
+}
+.profile_detail_container{
+    display: flex;
+    gap: 0.7rem;
+}
+@media only screen and (max-width:600px){
+ .profile_detail_container{
+    display: flex;
+    flex-direction: column;
+}
+.profileContainerFlex{
+    display:flex ;
+    flex-direction: column;
+  
+}
+.connectionButton{
+    margin-top: 4rem;
+}
+.extraMargin{
+    height: 6rem;
+    background: white;
+    width: 100%;
+}
+.allCommentContainer{
+    width: 70vw;
+    height: fit-content;
+    background: white;
+    border-radius: 10px;
+    position: relative;
+    padding: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+  } 
+
+
+
+
+
+
+
+
+
+
+
+
+
