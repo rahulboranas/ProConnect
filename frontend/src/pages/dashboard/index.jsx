@@ -166,7 +166,7 @@ export default function Dashboard() {
               await dispatch(getAllCommets({post_id:postState.postId}))
               setCommentText("")
             }} className={styles.postCommentContainer_commentBtn}>
-              <p>Comment</p>
+              Comment
             </div>
             </div>
           </div></div>
