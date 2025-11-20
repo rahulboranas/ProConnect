@@ -187,7 +187,9 @@ window.open(`${BASE_URL}/${response.data.message}`,"_blank")
               ))}
             </div>
           </div>
+<div style={{height:"12px",background:"white",width:"100%"}}>
 
+</div>
 
         </div>
 
