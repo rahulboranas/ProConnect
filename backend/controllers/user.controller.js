@@ -7,7 +7,7 @@ import crypto from "crypto"
 import PDFDocument  from 'pdfkit'
 import fs from 'fs'
 import ConnectRequest from "../models/connections.model.js"
-import { ADDRGETNETWORKPARAMS } from "dns"
+
 const convertUserDataToPDF = async(userData)=>{
     const doc = new PDFDocument
     const outputPath = crypto.randomBytes(32).toString("hex")+".pdf";
